@@ -43,4 +43,5 @@ locals {
   list_variable   = var.list_var
   map_variable    = var.map_var
   object_variable = var.object_var
+  current_user_id=random_id.server.hex
 }

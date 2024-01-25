@@ -36,12 +36,6 @@ variable "number_var" {
   default = 200
 }
 
-
-
-
-
-
-
 variable "ami_id" {
-  
+  type = string
 }
